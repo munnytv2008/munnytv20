@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(44.jpg);
+  
+    font-family: sans-serif;
+   background-repeat:no-repeat;
+   
+}
+.form-box{
+    width: 500px;
+    background: rgba(0,0,0,0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color:chartreuse;
+}
+h4{
+    text-align: center;
+    margin-bottom: 40px;
+    color: darkorange;
+}
+
+.btn a{
+    
+   margin: auto;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color:skyblue;
+    color: #fff;
+    font-size: 16px;
+    color: fuchsia;
+    font-weight: bold;
+  
+    text-decoration: none;
+    text-align: center;
+    transition:.3s;
+    border-radius: 10px;
+}
+
+.btn a:hover{
+    background-color:salmon;
+    transform: scale(0.8);
+    color: yellow;
+}
+
+
+.copy{
+        width: 500px;
+    background-color: cornflowerblue;
+    margin: 12% auto;
+    padding: 5px 0;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    height: 27px;
+    border-radius: 6px;
+}
+
+footer h4{
+      text-align: center;
+    margin-bottom: 40px;
+    color:chartreuse;  
+}
+
+@media screen and (max-width:700px){
+    body{
+         background-color: cadetblue;
+    }
+    .h4{
+    text-align: center;
+    margin-bottom: 40px;
+    color:aqua;
+}
+
+    
+}
